@@ -10,7 +10,8 @@ int main() {
 	pointer_1 = &a;
 	pointer_2 = &b;
 
-
 	printf("%d,%d\n", a, b);
 	printf("%d,%d\n", *pointer_1, *pointer_2);
+	
+	printf("修改文件");
 }
